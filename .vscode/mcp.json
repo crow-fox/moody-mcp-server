@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "moody-mcp": {
+      "type": "stdio",
+      "command": "deno",
+      "args": [
+        "run",
+        "${workspaceFolder}/server.ts",
+      ]
+    }
+  }
+}
